@@ -14,6 +14,8 @@
 		F408E5962184D4B700237602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F408E5942184D4B600237602 /* LaunchScreen.storyboard */; };
 		F408E5A12184D4B700237602 /* Storage_box_contentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5A02184D4B700237602 /* Storage_box_contentTests.swift */; };
 		F408E5AC2184D4B700237602 /* Storage_box_contentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5AB2184D4B700237602 /* Storage_box_contentUITests.swift */; };
+		F408E5BA2184D7AD00237602 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5B92184D7AD00237602 /* Storage.swift */; };
+		F408E5BC2187A8E300237602 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E5BB2187A8E300237602 /* PlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F408E5A72184D4B700237602 /* Storage box contentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storage box contentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F408E5AB2184D4B700237602 /* Storage_box_contentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage_box_contentUITests.swift; sourceTree = "<group>"; };
 		F408E5AD2184D4B700237602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F408E5B92184D7AD00237602 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F408E5BB2187A8E300237602 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				F408E58B2184D4B400237602 /* AppDelegate.swift */,
 				F408E58D2184D4B400237602 /* ViewController.swift */,
 				F408E58F2184D4B400237602 /* Main.storyboard */,
+				F408E5BB2187A8E300237602 /* PlaceViewController.swift */,
+				F408E5B92184D7AD00237602 /* Storage.swift */,
 				F408E5922184D4B600237602 /* Assets.xcassets */,
 				F408E5942184D4B600237602 /* LaunchScreen.storyboard */,
 				F408E5972184D4B700237602 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F408E5BC2187A8E300237602 /* PlaceViewController.swift in Sources */,
+				F408E5BA2184D7AD00237602 /* Storage.swift in Sources */,
 				F408E58E2184D4B400237602 /* ViewController.swift in Sources */,
 				F408E58C2184D4B400237602 /* AppDelegate.swift in Sources */,
 			);
